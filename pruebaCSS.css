@@ -1,0 +1,45 @@
+.Cabeza{
+    background-color: rgb(255, 146, 95);
+    border: 10px solid rgb(123, 194, 252);
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.Titulos{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Body{
+    background-color: rgba(63, 67, 71, 0.384);
+}
+
+.Div{
+    display: flex;
+    width: 100%;
+    float: left;
+    height: 99.5%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 1em;
+}
+
+.Margen{
+    margin: 1em;
+    padding: 1em;
+    float: left;
+}
+
+#btnGuardar{
+    margin-top: 20px;
+}
+
+#edit-box{
+    display: none;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}

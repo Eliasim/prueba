@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\elias\OneDrive\Escritorio\CRUD\pruebaCSS.css">
+    <title>CRUD</title>
+</head>
+<body class="Body">
+
+    <header >
+        <h1 class="Cabeza">CRUD</h1>
+    </header>
+
+    <section id="secForm">
+        <div class="Div">
+            <form method="post">
+                <div class="Margen">
+                    <label class="Titulos" for="Nombre" id="Nombre">Nombre</label><br><br>
+                    <input type="text" id="inNombre" placeholder="nombre" required>
+                </div>
+                <div class="Margen">
+                    <label class="Titulos" for="Fecha" id="Fecha">Fecha de Nacimiento</label><br><br>
+                    <input type="date" id="inFecha" required>
+                </div>
+                <div class="Margen">
+                    <label class="Titulos" for="Ead" id="Edad">Edad</label><br><br>
+                    <input type="number" id="inEdad" placeholder="edad" required>
+                </div>
+                <div class="Margen">
+                    <label class="Titulos" for="Telefono" id="Telefono">Telefono</label><br><br>
+                    <input type="number" id="inTelefono" placeholder="telefono" required>
+                </div>
+                <div class="Margen">
+                    <label class="Titulos" for="Trabajo" id="Trabajo">Trabajo</label><br><br>
+                    <input type="text" id="inTrabajo" placeholder="trabajo" required>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="secBoton">
+        <div class="Div">
+            <button type="submit" onclick="guardar()">Guardar</button>
+        </div>
+    </section>
+
+    <section id="secTabla">
+        <div id="resultados">
+            
+        </div>
+    </section>
+
+<script type="text/javascript" src="pruebaJS.js"></script>
+</body>
+</html>
